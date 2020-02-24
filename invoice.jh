@@ -1,0 +1,12 @@
+entity InvoiceReadingResult {
+	invoiceId String,
+    invoiceNumber String,
+    issueDate Date,
+    companyLegalId String,
+    customerLegalId String,
+    totalAmount Double,
+    taxTotal Double,
+    legalMonetaryTotal Double
+       
+}
+
